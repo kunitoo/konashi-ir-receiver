@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16495DB41D3404C800B70ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16495DB31D3404C800B70ECA /* AppDelegate.swift */; };
+		16495DB61D3404C800B70ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16495DB51D3404C800B70ECA /* ViewController.swift */; };
+		16495DB91D3404C800B70ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16495DB71D3404C800B70ECA /* Main.storyboard */; };
+		16495DBB1D3404C800B70ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16495DBA1D3404C800B70ECA /* Assets.xcassets */; };
+		16495DBE1D3404C800B70ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16495DBC1D3404C800B70ECA /* LaunchScreen.storyboard */; };
+		16495DC91D3404C800B70ECA /* konashi_ir_receiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16495DC81D3404C800B70ECA /* konashi_ir_receiverTests.swift */; };
+		16495DD41D3404C800B70ECA /* konashi_ir_receiverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16495DD31D3404C800B70ECA /* konashi_ir_receiverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16495DC51D3404C800B70ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16495DA81D3404C800B70ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16495DAF1D3404C800B70ECA;
+			remoteInfo = "konashi-ir-receiver";
+		};
+		16495DD01D3404C800B70ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16495DA81D3404C800B70ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16495DAF1D3404C800B70ECA;
+			remoteInfo = "konashi-ir-receiver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16495DB01D3404C800B70ECA /* konashi-ir-receiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "konashi-ir-receiver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16495DB31D3404C800B70ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16495DB51D3404C800B70ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16495DB81D3404C800B70ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16495DBA1D3404C800B70ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16495DBD1D3404C800B70ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16495DBF1D3404C800B70ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16495DC41D3404C800B70ECA /* konashi-ir-receiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "konashi-ir-receiverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16495DC81D3404C800B70ECA /* konashi_ir_receiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = konashi_ir_receiverTests.swift; sourceTree = "<group>"; };
+		16495DCA1D3404C800B70ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16495DCF1D3404C800B70ECA /* konashi-ir-receiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "konashi-ir-receiverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16495DD31D3404C800B70ECA /* konashi_ir_receiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = konashi_ir_receiverUITests.swift; sourceTree = "<group>"; };
+		16495DD51D3404C800B70ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16495DAD1D3404C800B70ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16495DC11D3404C800B70ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16495DCC1D3404C800B70ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16495DA71D3404C800B70ECA = {
+			isa = PBXGroup;
+			children = (
+				16495DB21D3404C800B70ECA /* konashi-ir-receiver */,
+				16495DC71D3404C800B70ECA /* konashi-ir-receiverTests */,
+				16495DD21D3404C800B70ECA /* konashi-ir-receiverUITests */,
+				16495DB11D3404C800B70ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16495DB11D3404C800B70ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16495DB01D3404C800B70ECA /* konashi-ir-receiver.app */,
+				16495DC41D3404C800B70ECA /* konashi-ir-receiverTests.xctest */,
+				16495DCF1D3404C800B70ECA /* konashi-ir-receiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16495DB21D3404C800B70ECA /* konashi-ir-receiver */ = {
+			isa = PBXGroup;
+			children = (
+				16495DB31D3404C800B70ECA /* AppDelegate.swift */,
+				16495DB51D3404C800B70ECA /* ViewController.swift */,
+				16495DB71D3404C800B70ECA /* Main.storyboard */,
+				16495DBA1D3404C800B70ECA /* Assets.xcassets */,
+				16495DBC1D3404C800B70ECA /* LaunchScreen.storyboard */,
+				16495DBF1D3404C800B70ECA /* Info.plist */,
+			);
+			path = "konashi-ir-receiver";
+			sourceTree = "<group>";
+		};
+		16495DC71D3404C800B70ECA /* konashi-ir-receiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				16495DC81D3404C800B70ECA /* konashi_ir_receiverTests.swift */,
+				16495DCA1D3404C800B70ECA /* Info.plist */,
+			);
+			path = "konashi-ir-receiverTests";
+			sourceTree = "<group>";
+		};
+		16495DD21D3404C800B70ECA /* konashi-ir-receiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16495DD31D3404C800B70ECA /* konashi_ir_receiverUITests.swift */,
+				16495DD51D3404C800B70ECA /* Info.plist */,
+			);
+			path = "konashi-ir-receiverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16495DAF1D3404C800B70ECA /* konashi-ir-receiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16495DD81D3404C800B70ECA /* Build configuration list for PBXNativeTarget "konashi-ir-receiver" */;
+			buildPhases = (
+				16495DAC1D3404C800B70ECA /* Sources */,
+				16495DAD1D3404C800B70ECA /* Frameworks */,
+				16495DAE1D3404C800B70ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "konashi-ir-receiver";
+			productName = "konashi-ir-receiver";
+			productReference = 16495DB01D3404C800B70ECA /* konashi-ir-receiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16495DC31D3404C800B70ECA /* konashi-ir-receiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16495DDB1D3404C800B70ECA /* Build configuration list for PBXNativeTarget "konashi-ir-receiverTests" */;
+			buildPhases = (
+				16495DC01D3404C800B70ECA /* Sources */,
+				16495DC11D3404C800B70ECA /* Frameworks */,
+				16495DC21D3404C800B70ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16495DC61D3404C800B70ECA /* PBXTargetDependency */,
+			);
+			name = "konashi-ir-receiverTests";
+			productName = "konashi-ir-receiverTests";
+			productReference = 16495DC41D3404C800B70ECA /* konashi-ir-receiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16495DCE1D3404C800B70ECA /* konashi-ir-receiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16495DDE1D3404C800B70ECA /* Build configuration list for PBXNativeTarget "konashi-ir-receiverUITests" */;
+			buildPhases = (
+				16495DCB1D3404C800B70ECA /* Sources */,
+				16495DCC1D3404C800B70ECA /* Frameworks */,
+				16495DCD1D3404C800B70ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16495DD11D3404C800B70ECA /* PBXTargetDependency */,
+			);
+			name = "konashi-ir-receiverUITests";
+			productName = "konashi-ir-receiverUITests";
+			productReference = 16495DCF1D3404C800B70ECA /* konashi-ir-receiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16495DA81D3404C800B70ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ItoKunihiko;
+				TargetAttributes = {
+					16495DAF1D3404C800B70ECA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					16495DC31D3404C800B70ECA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16495DAF1D3404C800B70ECA;
+					};
+					16495DCE1D3404C800B70ECA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16495DAF1D3404C800B70ECA;
+					};
+				};
+			};
+			buildConfigurationList = 16495DAB1D3404C800B70ECA /* Build configuration list for PBXProject "konashi-ir-receiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16495DA71D3404C800B70ECA;
+			productRefGroup = 16495DB11D3404C800B70ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16495DAF1D3404C800B70ECA /* konashi-ir-receiver */,
+				16495DC31D3404C800B70ECA /* konashi-ir-receiverTests */,
+				16495DCE1D3404C800B70ECA /* konashi-ir-receiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16495DAE1D3404C800B70ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16495DBE1D3404C800B70ECA /* LaunchScreen.storyboard in Resources */,
+				16495DBB1D3404C800B70ECA /* Assets.xcassets in Resources */,
+				16495DB91D3404C800B70ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16495DC21D3404C800B70ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16495DCD1D3404C800B70ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16495DAC1D3404C800B70ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16495DB61D3404C800B70ECA /* ViewController.swift in Sources */,
+				16495DB41D3404C800B70ECA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16495DC01D3404C800B70ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16495DC91D3404C800B70ECA /* konashi_ir_receiverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16495DCB1D3404C800B70ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16495DD41D3404C800B70ECA /* konashi_ir_receiverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16495DC61D3404C800B70ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16495DAF1D3404C800B70ECA /* konashi-ir-receiver */;
+			targetProxy = 16495DC51D3404C800B70ECA /* PBXContainerItemProxy */;
+		};
+		16495DD11D3404C800B70ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16495DAF1D3404C800B70ECA /* konashi-ir-receiver */;
+			targetProxy = 16495DD01D3404C800B70ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16495DB71D3404C800B70ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16495DB81D3404C800B70ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16495DBC1D3404C800B70ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16495DBD1D3404C800B70ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16495DD61D3404C800B70ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16495DD71D3404C800B70ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16495DD91D3404C800B70ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "konashi-ir-receiver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16495DDA1D3404C800B70ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "konashi-ir-receiver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16495DDC1D3404C800B70ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "konashi-ir-receiverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/konashi-ir-receiver.app/konashi-ir-receiver";
+			};
+			name = Debug;
+		};
+		16495DDD1D3404C800B70ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "konashi-ir-receiverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/konashi-ir-receiver.app/konashi-ir-receiver";
+			};
+			name = Release;
+		};
+		16495DDF1D3404C800B70ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "konashi-ir-receiverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "konashi-ir-receiver";
+			};
+			name = Debug;
+		};
+		16495DE01D3404C800B70ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "konashi-ir-receiverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "konashi-ir-receiver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16495DAB1D3404C800B70ECA /* Build configuration list for PBXProject "konashi-ir-receiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16495DD61D3404C800B70ECA /* Debug */,
+				16495DD71D3404C800B70ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16495DD81D3404C800B70ECA /* Build configuration list for PBXNativeTarget "konashi-ir-receiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16495DD91D3404C800B70ECA /* Debug */,
+				16495DDA1D3404C800B70ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16495DDB1D3404C800B70ECA /* Build configuration list for PBXNativeTarget "konashi-ir-receiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16495DDC1D3404C800B70ECA /* Debug */,
+				16495DDD1D3404C800B70ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16495DDE1D3404C800B70ECA /* Build configuration list for PBXNativeTarget "konashi-ir-receiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16495DDF1D3404C800B70ECA /* Debug */,
+				16495DE01D3404C800B70ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16495DA81D3404C800B70ECA /* Project object */;
+}
