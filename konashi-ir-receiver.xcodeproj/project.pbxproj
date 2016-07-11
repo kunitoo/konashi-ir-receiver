@@ -14,6 +14,7 @@
 		16495DBE1D3404C800B70ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16495DBC1D3404C800B70ECA /* LaunchScreen.storyboard */; };
 		16495DC91D3404C800B70ECA /* konashi_ir_receiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16495DC81D3404C800B70ECA /* konashi_ir_receiverTests.swift */; };
 		16495DD41D3404C800B70ECA /* konashi_ir_receiverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16495DD31D3404C800B70ECA /* konashi_ir_receiverUITests.swift */; };
+		16495DE21D3405E600B70ECA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16495DE11D3405E600B70ECA /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		16495DCF1D3404C800B70ECA /* konashi-ir-receiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "konashi-ir-receiverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16495DD31D3404C800B70ECA /* konashi_ir_receiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = konashi_ir_receiverUITests.swift; sourceTree = "<group>"; };
 		16495DD51D3404C800B70ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16495DE11D3405E600B70ECA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16495DE21D3405E600B70ECA /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		16495DA71D3404C800B70ECA = {
 			isa = PBXGroup;
 			children = (
+				16495DE11D3405E600B70ECA /* CoreBluetooth.framework */,
 				16495DB21D3404C800B70ECA /* konashi-ir-receiver */,
 				16495DC71D3404C800B70ECA /* konashi-ir-receiverTests */,
 				16495DD21D3404C800B70ECA /* konashi-ir-receiverUITests */,
