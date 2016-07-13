@@ -14,6 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        Konashi.shared().readyHandler = {() -> Void in
+            Konashi.pinMode(KonashiDigitalIOPin.LED2, mode: KonashiPinMode.Output)
+            Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.High)
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +28,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func findKonashi(sender: UIButton) {
+        Konashi.find()
     }
 }
 

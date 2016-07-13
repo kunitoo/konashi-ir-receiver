@@ -102,6 +102,7 @@
 		16495E161D3409BF00B70ECA /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
 		16495E171D3409BF00B70ECA /* KonashiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiUtils.h; sourceTree = "<group>"; };
 		16495E181D3409BF00B70ECA /* KonashiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KonashiUtils.m; sourceTree = "<group>"; };
+		16E5B8911D3677F7009C5D5F /* konashi_ir_receiver-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "konashi_ir_receiver-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +162,7 @@
 				16495DBA1D3404C800B70ECA /* Assets.xcassets */,
 				16495DBC1D3404C800B70ECA /* LaunchScreen.storyboard */,
 				16495DBF1D3404C800B70ECA /* Info.plist */,
+				16E5B8911D3677F7009C5D5F /* konashi_ir_receiver-Bridging-Header.h */,
 			);
 			path = "konashi-ir-receiver";
 			sourceTree = "<group>";
@@ -565,6 +567,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "konashi_ir_receiver-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -579,6 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kunitoo.konashi-ir-receiver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "konashi_ir_receiver-Bridging-Header.h";
 			};
 			name = Release;
 		};
