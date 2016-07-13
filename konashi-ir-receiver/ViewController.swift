@@ -33,6 +33,9 @@ class ViewController: UIViewController {
     @IBAction func findKonashi(sender: UIButton) {
         Konashi.find()
     }
+    @IBAction func disconnect(sender: UIButton) {
+        Konashi.disconnect()
+    }
     @IBAction func led2On(sender: UIButton) {
         Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.High)
     }
