@@ -25,11 +25,40 @@
                                     <action selector="findKonashi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mIf-4x-zws"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pom-xC-Ps3">
+                                <rect key="frame" x="4" y="112" width="63" height="30"/>
+                                <state key="normal" title="LED2 ON"/>
+                                <connections>
+                                    <action selector="led2On:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qm8-j9-Svu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7k-RT-PTw">
+                                <rect key="frame" x="4" y="142" width="69" height="30"/>
+                                <state key="normal" title="LED2 OFF"/>
+                                <connections>
+                                    <action selector="led2Of:" destination="BYZ-38-t0r" eventType="touchUpInside" id="afZ-hR-tvW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CN3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1W9-GQ-gl3">
+                                <rect key="frame" x="11" y="188" width="35" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hFm-GC-LXK">
+                                <rect key="frame" x="54" y="184" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="pom-xC-Ps3" firstAttribute="leading" secondItem="R7k-RT-PTw" secondAttribute="leading" id="4Qh-Df-vcr"/>
                             <constraint firstItem="GHC-Y5-jBg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="DNz-YN-MqE"/>
                             <constraint firstItem="GHC-Y5-jBg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="WOT-ZJ-jhq"/>
+                            <constraint firstItem="pom-xC-Ps3" firstAttribute="top" secondItem="GHC-Y5-jBg" secondAttribute="bottom" constant="54" id="eOE-jX-S1r"/>
+                            <constraint firstItem="pom-xC-Ps3" firstAttribute="centerX" secondItem="GHC-Y5-jBg" secondAttribute="centerX" id="paT-3K-ou9"/>
+                            <constraint firstItem="R7k-RT-PTw" firstAttribute="top" secondItem="pom-xC-Ps3" secondAttribute="bottom" id="rtw-8h-GSq"/>
                         </constraints>
                     </view>
                     <connections>

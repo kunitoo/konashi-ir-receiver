@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,6 +30,12 @@ class ViewController: UIViewController {
 
     @IBAction func findKonashi(sender: UIButton) {
         Konashi.find()
+    }
+    @IBAction func led2On(sender: UIButton) {
+        Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.High)
+    }
+    @IBAction func led2Of(sender: UIButton) {
+        Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.Low)
     }
 }
 
