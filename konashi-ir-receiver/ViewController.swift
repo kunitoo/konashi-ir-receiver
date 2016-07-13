@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var cn3text: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
         Konashi.shared().readyHandler = {() -> Void in
             Konashi.pinMode(KonashiDigitalIOPin.LED2, mode: KonashiPinMode.Output)
             Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.High)
+            Konashi.pinMode(KonashiDigitalIOPin.DigitalIO2, mode: KonashiPinMode.Input)
         }
 
     }
@@ -36,6 +38,12 @@ class ViewController: UIViewController {
     }
     @IBAction func led2Of(sender: UIButton) {
         Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.Low)
+    }
+
+    @IBAction func cn3Read(sender: UIButton) {
+        let input = Konashi.digitalRead(KonashiDigitalIOPin.DigitalIO2)
+        print(input)
+        cn3text.text = "\(input)"
     }
 }
 
