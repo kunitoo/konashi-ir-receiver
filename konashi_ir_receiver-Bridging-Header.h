@@ -12,3 +12,4 @@
 
 #endif /* konashi_ir_receiver_Bridging_Header_h */
 #import "Konashi.h"
+#import "Konashi+Grove.h"
