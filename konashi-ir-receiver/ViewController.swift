@@ -20,9 +20,13 @@ class ViewController: UIViewController {
             Konashi.pinMode(KonashiDigitalIOPin.LED2, mode: KonashiPinMode.Output)
             Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.High)
             Konashi.pinMode(KonashiDigitalIOPin.DigitalIO2, mode: KonashiPinMode.Input)
+            Konashi.uartMode(KonashiUartMode.Enable, baudrate: KonashiUartBaudrate.Rate9K6)
         }
         Konashi.shared().digitalInputDidChangeValueHandler = {(pin, value) -> Void in
             print("handler: \(value)")
+        }
+        Konashi.shared().uartRxCompleteHandler = {(data) -> Void in
+            print(data.description, ":", data.length)
         }
     }
 
