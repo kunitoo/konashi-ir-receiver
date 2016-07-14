@@ -21,9 +21,9 @@ class ViewController: UIViewController {
             Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.High)
             Konashi.pinMode(KonashiDigitalIOPin.DigitalIO2, mode: KonashiPinMode.Input)
         }
-
-        let timer = NSTimer.scheduledTimerWithTimeInterval(0.15, target: self, selector: #selector(self.readIR), userInfo: nil, repeats: true)
-        timer.fire()
+        Konashi.shared().digitalInputDidChangeValueHandler = {(pin, value) -> Void in
+            print("handler: \(value)")
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,10 +49,11 @@ class ViewController: UIViewController {
         let input = Konashi.digitalRead(KonashiDigitalIOPin.DigitalIO2)
         print(input.rawValue)
         cn3text.text = "\(input.rawValue)"
+
     }
 
     func readIR() {
-        print("hi: \(NSDate())")
+        print("\(NSDate())")
         let input = Konashi.digitalRead(KonashiDigitalIOPin.DigitalIO2)
         print(input.rawValue)
     }
