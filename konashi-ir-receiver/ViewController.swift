@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         }
 
         Konashi.shared().uartRxCompleteHandler = {(data) -> Void in
+            let desc = data.description
+            if(desc == "<fe>" || desc == "<fc>" || desc == "<f0>" || desc == "<f8>") {
+                return
+            }
             print(data.description, ":", data.length)
             self.readIR(data)
         }
@@ -42,8 +46,18 @@ class ViewController: UIViewController {
         Konashi.disconnect()
     }
 
+    @IBAction func sendData(sender: UIButton) {
+        var index: Int = 781
+        let nsdata = NSData(bytes: &index, length: sizeof(Int))
+        Konashi.uartWriteData(nsdata)
+    }
+
     @IBAction func showData(sender: UIButton) {
-        let str = irData.map({(data) -> String in data.description}).joinWithSeparator(",")
+        let str = irData.map({(data) -> String in
+            var buffer = [UInt8](count: data.length, repeatedValue: 0x00)
+            data.getBytes(&buffer, length: data.length)
+            return "\(buffer)"
+        }).joinWithSeparator(",")
         textView.text = str
         irData.removeAll()
     }

@@ -45,9 +45,18 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oi8-SI-4qR">
+                                <rect key="frame" x="20" y="89" width="72" height="30"/>
+                                <state key="normal" title="Send Data"/>
+                                <connections>
+                                    <action selector="sendData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2RE-YN-qCx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="oi8-SI-4qR" firstAttribute="leading" secondItem="GHC-Y5-jBg" secondAttribute="leading" id="1ac-CL-N8o"/>
+                            <constraint firstItem="oi8-SI-4qR" firstAttribute="top" secondItem="GHC-Y5-jBg" secondAttribute="bottom" constant="31" id="2Es-2I-eXN"/>
                             <constraint firstItem="GHC-Y5-jBg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="DNz-YN-MqE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z94-ml-jQJ" secondAttribute="bottom" constant="169" id="GWp-uY-1OM"/>
                             <constraint firstItem="Z94-ml-jQJ" firstAttribute="top" secondItem="Euw-ag-s4I" secondAttribute="bottom" constant="34" id="OOI-on-Av0"/>
