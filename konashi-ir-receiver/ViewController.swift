@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton!
 
+    @IBOutlet weak var textView: UITextView!
+    var irData: [NSData] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,6 +24,7 @@ class ViewController: UIViewController {
 
         Konashi.shared().uartRxCompleteHandler = {(data) -> Void in
             print(data.description, ":", data.length)
+            self.readIR(data)
         }
     }
 
@@ -38,7 +42,13 @@ class ViewController: UIViewController {
         Konashi.disconnect()
     }
 
-    func readIR() {
+    @IBAction func showData(sender: UIButton) {
+        let str = irData.map({(data) -> String in data.description}).joinWithSeparator(",")
+        textView.text = str
+        irData.removeAll()
+    }
+    func readIR(data: NSData) {
+        self.irData.append(data)
     }
 }
 
