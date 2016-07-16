@@ -45,11 +45,18 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oi8-SI-4qR">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oi8-SI-4qR">
                                 <rect key="frame" x="20" y="89" width="72" height="30"/>
                                 <state key="normal" title="Send Data"/>
                                 <connections>
                                     <action selector="sendData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2RE-YN-qCx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGj-ZX-2Ry">
+                                <rect key="frame" x="540" y="161" width="34" height="30"/>
+                                <state key="normal" title="clear"/>
+                                <connections>
+                                    <action selector="clearView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A9d-np-FJZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,6 +64,7 @@
                         <constraints>
                             <constraint firstItem="oi8-SI-4qR" firstAttribute="leading" secondItem="GHC-Y5-jBg" secondAttribute="leading" id="1ac-CL-N8o"/>
                             <constraint firstItem="oi8-SI-4qR" firstAttribute="top" secondItem="GHC-Y5-jBg" secondAttribute="bottom" constant="31" id="2Es-2I-eXN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sGj-ZX-2Ry" secondAttribute="trailing" constant="6" id="6Cw-oQ-bR3"/>
                             <constraint firstItem="GHC-Y5-jBg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="DNz-YN-MqE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z94-ml-jQJ" secondAttribute="bottom" constant="169" id="GWp-uY-1OM"/>
                             <constraint firstItem="Z94-ml-jQJ" firstAttribute="top" secondItem="Euw-ag-s4I" secondAttribute="bottom" constant="34" id="OOI-on-Av0"/>
@@ -65,6 +73,7 @@
                             <constraint firstItem="Euw-ag-s4I" firstAttribute="leading" secondItem="GHC-Y5-jBg" secondAttribute="leading" id="ZAp-RM-STg"/>
                             <constraint firstItem="Z94-ml-jQJ" firstAttribute="leading" secondItem="Euw-ag-s4I" secondAttribute="leading" id="kwu-eX-a58"/>
                             <constraint firstItem="Gl8-wG-EWx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nwv-7e-Ekp"/>
+                            <constraint firstItem="sGj-ZX-2Ry" firstAttribute="baseline" secondItem="Euw-ag-s4I" secondAttribute="baseline" id="tzr-B5-Isj"/>
                             <constraint firstItem="Gl8-wG-EWx" firstAttribute="baseline" secondItem="GHC-Y5-jBg" secondAttribute="baseline" id="w24-3N-6Eh"/>
                             <constraint firstItem="Z94-ml-jQJ" firstAttribute="trailing" secondItem="Gl8-wG-EWx" secondAttribute="trailing" id="zQx-mD-tdV"/>
                         </constraints>

@@ -58,8 +58,11 @@ class ViewController: UIViewController {
             data.getBytes(&buffer, length: data.length)
             return "\(buffer)"
         }).joinWithSeparator(",")
-        textView.text = str
+        textView.insertText(str)
         irData.removeAll()
+    }
+    @IBAction func clearView(sender: UIButton) {
+        self.textView.text = ""
     }
     func readIR(data: NSData) {
         self.irData.append(data)
